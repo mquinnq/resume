@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mike Quinn – Resume</title>
+<meta name="description" content="Mike Quinn – Senior Backend Engineer. Software development, architecture, and database management.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1f2328;
+    --muted: #59636e;
+    --accent: #1f5f99;
+    --rule: #d8dee4;
+    --chip: #eef3f8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #111418;
+      --text: #e6e8eb;
+      --muted: #9aa4af;
+      --accent: #6cb0f0;
+      --rule: #2c333b;
+      --chip: #1b232c;
+    }
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  a { color: var(--accent); }
+  main {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 2.5rem 1rem 4rem;
+  }
+  header {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--text);
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(2rem, 6vw, 2.75rem);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1.1;
+  }
+  .contact {
+    margin: 0.75rem 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1.25rem;
+    color: var(--muted);
+  }
+  .contact a { color: inherit; }
+  .download {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  .download:hover, .download:focus-visible { background: var(--accent); color: var(--bg); }
+  section { margin-top: 2.25rem; }
+  h2 {
+    margin: 0 0 1rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.35rem;
+  }
+  .summary p { margin: 0 0 0.75rem; }
+  article { margin-bottom: 1.75rem; }
+  article header {
+    text-align: left;
+    border: 0;
+    padding: 0;
+  }
+  time, .dates {
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  h3 {
+    margin: 0.15rem 0 0.5rem;
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+  h3 .org { font-weight: 400; color: var(--muted); }
+  article ul { margin: 0; padding-left: 1.25rem; }
+  article li { margin-bottom: 0.2rem; }
+  .tech { margin: 0.6rem 0 0; font-size: 0.93rem; }
+  .tech strong { color: var(--muted); font-weight: 600; }
+  .skills {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .skills li {
+    background: var(--chip);
+    border-radius: 999px;
+    padding: 0.2rem 0.75rem;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 480px) {
+    main { padding-top: 1.75rem; }
+    .contact { flex-direction: column; gap: 0.1rem; }
+  }
+  @media print {
+    .download { display: none; }
+    body { font-size: 11pt; }
+    main { padding: 0; }
+    article { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Mike Quinn</h1>
+    <ul class="contact">
+      <li>Gig Harbor, WA</li>
+      <li><a href="tel:+12538585640">(253) 858-5640</a></li>
+      <li><a href="mailto:mquinnq@gmail.com">mquinnq@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/mikequinnq/">LinkedIn Profile</a></li>
+    </ul>
+    <a class="download" href="Mike%20Quinn%20-%20June%202025%20-%20Resume.pdf" download>Download PDF</a>
+  </header>
+
+  <section class="summary" aria-labelledby="summary-heading">
+    <h2 id="summary-heading">Summary</h2>
+    <p>My experience is focused on software development and database management. I have developed applications utilizing C# (.Net 1.0 – 8.0), C++, Delphi (3.0 – 7.0), Azure, AWS, GCP, VOS, MS SQL, Postgres, Sybase, and SQL Anywhere. I have experience programming threaded solutions, business objects, architecting solutions, network sockets, and large-scale deployment scenarios. I have worked closely and effectively with end users, project management, and system staff.</p>
+    <p><strong>Specialties:</strong> Architecting Solutions, Network Sockets, Deployment Automation, C#, Business Automation</p>
+  </section>
+
+  <section aria-labelledby="experience-heading">
+    <h2 id="experience-heading">Experience</h2>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="2024-10">October 2024</time> – Present</span>
+        <h3>Senior Backend Engineer, <span class="org">Broadpoint Group</span></h3>
+      </header>
+      <ul>
+        <li>Collaborated in a four-person team to review and enhance backend APIs</li>
+        <li>Created a standardized microservice template aligned with SOLID principles</li>
+        <li>Built the User Details API with full PII compliance</li>
+        <li>Contributed to Engineering Design Document updates to support design clarity and downstream impact</li>
+        <li>Participated in Scrum ceremonies, including sprint planning, stand-ups, and retrospectives</li>
+        <li>Designed and deployed Azure Functions to handle critical business workflows with scalable, event-driven execution (both on-demand and timer-based)</li>
+        <li>Supported production deployments and troubleshooting across Azure resources, including API Management (APIM), Virtual Machines, configuration, Application Insights, and Redis</li>
+      </ul>
+      <p class="tech"><strong>Key technologies:</strong> C#, .NET, Entity Framework Core, REST API, Azure (DevOps, B2C, Functions, APIM, VMs, Monitor), Redis, SQL Server, GraphQL</p>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="2022-01">January 2022</time> – <time datetime="2024-10">October 2024</time></span>
+        <h3>Senior Full Stack Engineer, <span class="org">MajorBoost</span></h3>
+      </header>
+      <ul>
+        <li>Utilized Blazor to create a responsive UI for clients</li>
+        <li>Implemented Entity Framework for code-first database approach</li>
+        <li>Used various APIs and SDKs for client telephony communication: Twilio, Telnyx, Sinch</li>
+        <li>Built backend services to receive audio streams and perform real time transcriptions</li>
+        <li>Enabled backend communication including C# and Python applications with Kafka to provide generated AI responses to voice calls</li>
+        <li>Created suite of REST API endpoints for frontend functionality and client direct telephony integrations</li>
+        <li>Maintained CI/CD with infrastructure as scripts with GitHub and AWS integrations</li>
+        <li>Enabled caching with Redis including invalidation mechanisms</li>
+        <li>Worked within startup business with rapidly changing goals and milestones</li>
+        <li>Maintained a high bar for client experience and security including HIPAA requirements</li>
+      </ul>
+      <p class="tech"><strong>Key technologies:</strong> C#, .Net, Entity Framework Core, REST API, Telephony APIs and SDKs (Twilio, Telnyx, Sinch), AWS (CloudWatch, ECS, X-Ray, Deployments, Polly, etc.), GitHub, Google real time speech to text, Real time text to speech, gRPC, Streaming, Blazor, Python, Ubuntu, Node, JavaScript, Grafana, OTel, Postgres</p>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="2008-10">October 2008</time> – <time datetime="2022-01">January 2022</time></span>
+        <h3>Enterprise Architect, <span class="org">CIC Plus, Inc.</span></h3>
+      </header>
+      <ul>
+        <li>Rearchitected client flagship site</li>
+        <li>Developed new electronic form based business lines for government, HR, and compliance workflows</li>
+        <li>Planned and implemented application stack switch from ASP.NET to MVC</li>
+        <li>Worked with an active team of 20 developers maintaining 5 distinct business lines</li>
+        <li>Led the effort to move the development group to an Agile lifecycle</li>
+        <li>Responsible for the application security and framework</li>
+        <li>Adopted Bootstrap for responsive views</li>
+        <li>Created Windows applications for customer service to tweak the many features within the client web sites</li>
+        <li>Developed WCF (self hosted and IIS hosted) solutions for messaging and partner integrations</li>
+        <li>Implemented SOAP and REST based API endpoints with multiple content types</li>
+        <li>Created OAuth 2.0 services for custom claim based authentication using x509 certificates</li>
+        <li>Created multiple Windows services to trigger tasks with time sensitive requirements</li>
+        <li>Responsible for planning and architecture with proof of concepts moving to Azure</li>
+        <li>Transitioned development group to Azure DevOps from VSTFS</li>
+        <li>Created and maintained Azure DevOps build pipelines, releases, and artifacts with CI/CD</li>
+        <li>Performed bi-monthly releases through automation for 70+ internal applications</li>
+        <li>Created a reverse proxy for HTTP/S along with custom ports to manage API endpoints with support for version hiding, circuit breaking, and throttling</li>
+        <li>Championed WCAG 2.0 recommendations</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="2003-03">March 2003</time> – <time datetime="2010-10">October 2010</time></span>
+        <h3>Owner, <span class="org">Panurgy Tech</span></h3>
+      </header>
+      <ul>
+        <li>Developed multiple one-off applications for a diverse set of clients</li>
+        <li>Web applications for sales and marketing ventures</li>
+        <li>Windows applications for office and inventory management</li>
+        <li>Adaptation of dosing logic for horse performance and predictions for gambling purposes</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="1999-05">May 1999</time> – <time datetime="2007-10">October 2007</time></span>
+        <h3>Senior Client Server Architect, <span class="org">Labor Ready, Inc.</span></h3>
+      </header>
+      <ul>
+        <li>Development and maintenance of a suite of applications to coordinate remote sites (replacement for <a href="http://www.ianywhere.com/products/remote_ware.html">RemoteWare</a>)</li>
+        <li>Responsible for research, technology choices, architecture, system design, base classes and migration to Microsoft .Net using C# for a team of 24 resources</li>
+        <li>Adopted Smart Client Solutions Factory (SCSF), Enterprise Library, WCF, and iDesign coding practices</li>
+        <li>Project Management Office, Software Development Life Cycle (SDLC), SOX, Requirement Gathering, Documentation, and ITIL experience</li>
+        <li>Instrumental in all aspects of contract resources</li>
+        <li>Provide internal mentoring and training along with coordinating external training opportunities</li>
+        <li>Code review responsibilities for legacy and new technology development</li>
+        <li>Development and maintenance of Payroll, A/R, Customer, Reporting, Employee, and User Account application solutions in Delphi</li>
+        <li>Employer payroll logic for State overtime and workers compensation</li>
+        <li>Managed new technology, change requests and bug fixes for a team of developers serving 2500+ users in 850+ offices throughout the US, Canada and the UK</li>
+        <li>Developed new components and threaded solutions</li>
+        <li>Developed software to communicate with 3rd party software (<a href="http://www.diebold.com/">Diebold</a>) for ATMs</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="1998-01">January 1998</time> – <time datetime="1999-04">April 1999</time></span>
+        <h3>Software Developer, <span class="org">New England Shipping Systems</span></h3>
+      </header>
+      <ul>
+        <li>Developed internal Management Information System for Maine and New Hampshire accounts using Sybase SQL Server and Delphi</li>
+        <li>Implemented internal network and e-mail system</li>
+        <li>Integrated shipping systems with AS/400 and PC based accounting/inventory systems using ODBC, DDE, keyboard mapping, and TCP/IP</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="1995-01">January 1995</time> – <time datetime="1998-01">January 1998</time></span>
+        <h3>Lead Developer, <span class="org">ATG Technologies</span></h3>
+      </header>
+      <ul>
+        <li>Developed telephony applications utilizing Microsoft SQL, VOX, ISDN, and Visual C++</li>
+        <li>Managed R&amp;D programmers and produced weekly status reports</li>
+        <li>Researched and implemented PC based phone system for customer service and telephony integration including priority queues, record capabilities, and ACD</li>
+        <li>Managed, organized, and maintained 28 T1 lines</li>
+        <li>Implemented internal network and e-mail system</li>
+        <li>Communicated with Marketing and worked with beta testers from product conception to completion</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="1993-01">January 1993</time> – <time datetime="1994-12">December 1994</time></span>
+        <h3>Adjunct Instructor, <span class="org">Santa Fe Community College</span></h3>
+      </header>
+      <ul>
+        <li>Taught beginning students “Introduction to Computers” consisting of basic computer theory and hands on lab work</li>
+        <li>Taught advanced students “Pascal Programming” consisting of algorithms, database design, and memory management</li>
+      </ul>
+    </article>
+
+    <article>
+      <header>
+        <span class="dates"><time datetime="1991-01">January 1991</time> – <time datetime="1994-12">December 1994</time></span>
+        <h3>Assistant Network Administrator, <span class="org">Santa Fe Community College</span></h3>
+      </header>
+      <ul>
+        <li>Designed, implemented and maintained 14,000 user campus e-mail system including 2 WAN sites using cc:Mail</li>
+        <li>Co-designed and implemented campus wide network comprised of 24 buildings</li>
+        <li>Managed support help desk for campus computer systems</li>
+        <li>Installed Internet connectivity for e-mail and TCP/IP stacks to the desktops</li>
+        <li>Developed utility programs for managing and streamlining network and e-mail functions</li>
+        <li>Maintained HP OpenView for network management</li>
+        <li>Installed and maintained concentrators and connectivity between buildings connected by CAT5 and fiber optic cabling</li>
+      </ul>
+    </article>
+  </section>
+
+  <section aria-labelledby="education-heading">
+    <h2 id="education-heading">Education</h2>
+    <article>
+      <header>
+        <time datetime="1992-06">June 1992</time>
+        <h3>Associate in Computer Engineering, <span class="org">Santa Fe Community College</span></h3>
+      </header>
+      <ul>
+        <li>Computer theory</li>
+        <li>Algorithms and logic</li>
+      </ul>
+    </article>
+  </section>
+
+  <section aria-labelledby="skills-heading">
+    <h2 id="skills-heading">Skills</h2>
+    <ul class="skills">
+      <li>ITIL</li>
+      <li>Network Protocols</li>
+      <li>C++</li>
+      <li>Windows Servers and Clients</li>
+      <li>Distributed Systems</li>
+      <li>SQL</li>
+      <li>Microsoft SQL Server</li>
+      <li>PostgreSQL</li>
+      <li>Interbase</li>
+      <li>Sybase</li>
+      <li>SDLCs</li>
+      <li>Agile Development</li>
+      <li>WPF</li>
+      <li>ASP.Net</li>
+      <li>MVC</li>
+      <li>REST</li>
+      <li>.Net Core</li>
+      <li>Microservices</li>
+      <li>C#</li>
+      <li>OAuth</li>
+      <li>Entity Framework</li>
+      <li>SAML</li>
+      <li>ASMX</li>
+      <li>WCF</li>
+      <li>WSE</li>
+      <li>Patterns and Practices</li>
+      <li>Enterprise Library</li>
+      <li>Delphi</li>
+      <li>Network Administration</li>
+      <li>SOX+</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
